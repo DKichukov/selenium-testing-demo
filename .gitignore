@@ -1,6 +1,7 @@
 HELP.md
 target/
 .mvn
+chrome-driver
 
 !**/src/main/**/target/
 !**/src/test/**/target/
