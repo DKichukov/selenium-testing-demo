@@ -4,8 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LaunchChrome {
-
+public class Locators2 {
   private static final String ABV_BG = "https://www.abv.bg/";
 
   public static void main(String[] args) {
@@ -14,7 +13,11 @@ public class LaunchChrome {
 
     WebDriver driver = new ChromeDriver();
     driver.get(ABV_BG);
-    driver.quit();
-  }
+    driver.findElement(By.cssSelector("input[id='username']")).sendKeys("abcd");
+    driver.findElement(By.xpath("//input[@type='password']")).sendKeys("1234");
+//    driver.findElement(By.xpath("//input[contains(@type='word')]")).sendKeys("1234");
+    driver.findElement(By.cssSelector("input[value='Вход']")).click();
 
+//    driver.quit();
+  }
 }
