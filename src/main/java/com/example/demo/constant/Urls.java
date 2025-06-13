@@ -8,6 +8,7 @@ public class Urls {
   public static final String BOOK_MY_SHOW = "https://in.bookmyshow.com/explore/movies-pune";
   public static final String AMAZON_DE = "https://amazon.de";
   public static final String JQUERYUI = "https://jqueryui.com/droppable/";
+  public static final String BAD_SSL = "https://expired.badssl.com/";
 
 
   private Urls() {
