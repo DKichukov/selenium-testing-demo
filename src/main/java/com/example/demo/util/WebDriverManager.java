@@ -1,7 +1,9 @@
 package com.example.demo.util;
 
+import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriverManager {
 
@@ -17,6 +19,10 @@ public class WebDriverManager {
     } catch (Exception ex) {
       throw new RuntimeException("Failed to initialize ChromeDriver", ex);
     }
+  }
+
+  public static WebDriverWait createWebDriverWait(WebDriver driver, long timeoutSeconds) {
+    return new WebDriverWait(driver, Duration.ofSeconds(timeoutSeconds));
   }
 
 }
