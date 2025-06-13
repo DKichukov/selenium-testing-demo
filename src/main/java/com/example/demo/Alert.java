@@ -28,6 +28,11 @@ public class Alert {
     //Click on cancel
 //    driver.switchTo().alert().dismiss();
 
+    //get out from the frame
+    driver.switchTo().defaultContent();
+
+    driver.findElement(By.xpath("//a[@id='getwebsitebtn']")).click();
+
     Thread.sleep(5000);
     driver.quit();
 

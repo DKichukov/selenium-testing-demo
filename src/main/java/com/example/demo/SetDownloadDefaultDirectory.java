@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import static com.example.demo.constant.Urls.SELENUIM;
+import static com.example.demo.constant.Urls.SELENIUM;
 import static com.example.demo.util.WebDriverManager.createChromeDriver;
 
 import java.util.HashMap;
@@ -18,7 +18,7 @@ public class SetDownloadDefaultDirectory {
     options.setExperimentalOption("prefs", prefs);
 
     WebDriver driver = createChromeDriver();
-    driver.get(SELENUIM);
+    driver.get(SELENIUM);
     driver.manage().window().maximize();
 
     driver.findElement(By.xpath("//a[normalize-space()='4.33.0']")).click();
