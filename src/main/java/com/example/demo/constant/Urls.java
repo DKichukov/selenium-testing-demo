@@ -9,6 +9,7 @@ public class Urls {
   public static final String AMAZON_DE = "https://amazon.de";
   public static final String JQUERYUI = "https://jqueryui.com/droppable/";
   public static final String BAD_SSL = "https://expired.badssl.com/";
+  public static final String SELENUIM = "https://www.selenium.dev/downloads/";
 
 
   private Urls() {
