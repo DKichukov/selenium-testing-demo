@@ -14,6 +14,7 @@ public class Urls {
   public static final String REDIFF = "https://www.rediff.com/";
   public static final String IRCTC = "https://www.irctc.co.in/nget/train-search";
   public static final String W3SCHOOLS_UPLOAD = "https://www.w3schools.com/howto/howto_html_file_upload_button.asp";
+  public static final String REDIFF_MAIL = "https://mail.rediff.com/cgi-bin/login.cgi";
 
 
   private Urls() {
