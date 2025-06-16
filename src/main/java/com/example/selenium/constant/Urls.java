@@ -12,6 +12,7 @@ public class Urls {
   public static final String SELENIUM = "https://www.selenium.dev/downloads/";
   public static final String SCROLL = "https://mdbootstrap.com/docs/standard/extended/bootstrap4-table-scroll/";
   public static final String REDIFF = "https://www.rediff.com/";
+  public static final String IRCTC = "https://www.irctc.co.in/nget/train-search";
 
 
   private Urls() {
