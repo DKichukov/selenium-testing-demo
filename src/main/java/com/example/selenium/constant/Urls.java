@@ -15,6 +15,7 @@ public class Urls {
   public static final String IRCTC = "https://www.irctc.co.in/nget/train-search";
   public static final String W3SCHOOLS_UPLOAD = "https://www.w3schools.com/howto/howto_html_file_upload_button.asp";
   public static final String REDIFF_MAIL = "https://mail.rediff.com/cgi-bin/login.cgi";
+  public static final String W3SCHOOLS_DROPDOWN = "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select";
 
 
   private Urls() {
