@@ -2,9 +2,11 @@ package com.example.testng;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Program1 {
+
   @BeforeClass
   public void before() {
     System.out.println("Before class ...");
@@ -23,6 +25,13 @@ public class Program1 {
   @Test
   public void testcase2() {
     System.out.println("In test case 2");
+  }
+
+  @Parameters({"url","key"})
+  @Test
+  public void useParameterTest(String url, String key) {
+    System.out.println("In test you can seen parameter: " + url+"/"+key);
+
   }
 
 }
