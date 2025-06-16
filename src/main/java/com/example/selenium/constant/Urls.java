@@ -1,4 +1,4 @@
-package com.example.demo.constant;
+package com.example.selenium.constant;
 
 public class Urls {
 

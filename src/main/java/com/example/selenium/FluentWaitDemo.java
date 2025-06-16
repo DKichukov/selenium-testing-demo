@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.selenium;
 
-import static com.example.demo.constant.Urls.BOOK_MY_SHOW;
-import static com.example.demo.util.WebDriverManager.createChromeDriver;
+import static com.example.selenium.constant.Urls.BOOK_MY_SHOW;
+import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import java.time.Duration;
 import java.util.function.Function;

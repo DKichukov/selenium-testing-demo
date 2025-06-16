@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.selenium;
 
-import static com.example.demo.constant.Urls.BAD_SSL;
-import static com.example.demo.util.WebDriverManager.createChromeDriver;
+import static com.example.selenium.constant.Urls.BAD_SSL;
+import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import java.io.File;
 import org.openqa.selenium.WebDriver;

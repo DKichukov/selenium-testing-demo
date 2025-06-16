@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.selenium;
 
-import static com.example.demo.constant.Urls.SELENIUM;
-import static com.example.demo.util.WebDriverManager.createChromeDriver;
+import static com.example.selenium.constant.Urls.SELENIUM;
+import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import java.util.HashMap;
 import java.util.Map;

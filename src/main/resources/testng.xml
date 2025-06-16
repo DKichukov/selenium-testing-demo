@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" verbose="1" parallel="false">
+  <test name="Tests">
+    <classes>
+      <class name="com.example.testng.Program3"/>
+      <class name="com.example.testng.Program2"/>
+      <class name="com.example.testng.Program1"/>
+      <class name="com.example.testng.Program4"/>
+    </classes>
+  </test>
+
+<!--  <test name="Tests-1">-->
+<!--  <classes>-->
+<!--    <class name="com.example.testng.Program2"/>-->
+<!--    <class name="com.example.testng.Program1"/>-->
+<!--  </classes>-->
+<!--  </test>-->
+</suite>

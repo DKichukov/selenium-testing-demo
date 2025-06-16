@@ -1,12 +1,11 @@
-package com.example.demo;
+package com.example.selenium;
 
-import static com.example.demo.constant.Urls.BOOK_MY_SHOW;
-import static com.example.demo.util.WebDriverManager.createChromeDriver;
+import static com.example.selenium.constant.Urls.BOOK_MY_SHOW;
+import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImplicitWait {
 

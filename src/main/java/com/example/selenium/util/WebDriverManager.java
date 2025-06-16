@@ -1,4 +1,4 @@
-package com.example.demo.util;
+package com.example.selenium.util;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;

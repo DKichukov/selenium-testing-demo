@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.selenium;
 
-import static com.example.demo.constant.Urls.AMAZON_DE;
-import static com.example.demo.util.WebDriverManager.createChromeDriver;
+import static com.example.selenium.constant.Urls.AMAZON_DE;
+import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
