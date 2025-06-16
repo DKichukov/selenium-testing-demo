@@ -7,13 +7,11 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 public class GetCssProperties {
   public static void main(String[] args) {
     WebDriver driver = createChromeDriver();
     driver.get(AMAZON_DE);
-    Actions act = new Actions(driver);
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
     WebElement element = driver.findElement(By.xpath("//span[@id='glow-ingress-line2']"));

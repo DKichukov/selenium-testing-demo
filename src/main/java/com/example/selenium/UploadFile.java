@@ -1,23 +1,22 @@
 package com.example.selenium;
 
-import static com.example.selenium.constant.Urls.IRCTC;
+import static com.example.selenium.constant.Urls.W3SCHOOLS_UPLOAD;
 import static com.example.selenium.util.WebDriverManager.createChromeDriver;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CloseVsQuit {
+public class UploadFile {
 
   public static void main(String[] args) {
     WebDriver driver = createChromeDriver();
-    driver.get(IRCTC);
+    driver.get(W3SCHOOLS_UPLOAD);
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-    driver.findElement(By.xpath("//span[@class='allcircle circletwo']")).click();
+    driver.findElement(By.xpath("//input[@id='myFile']")).sendKeys("src/main/resources/test.txt");
 
-    driver.quit(); //all windows are getting close
-//    driver.close();  //current window get closed or previous window get closed
+
   }
 
 }

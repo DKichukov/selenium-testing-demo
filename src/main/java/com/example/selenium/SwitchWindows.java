@@ -8,7 +8,6 @@ import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 
 public class SwitchWindows {
 
@@ -16,7 +15,6 @@ public class SwitchWindows {
 
     WebDriver driver = createChromeDriver();
     driver.get(ESKY_BG);
-    Actions act = new Actions(driver);
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
     driver.findElement(
