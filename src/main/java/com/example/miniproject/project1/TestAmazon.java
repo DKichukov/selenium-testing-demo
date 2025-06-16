@@ -30,10 +30,10 @@ public class TestAmazon {
 
   @Test
   public void verifyTitle() throws InterruptedException {
-    String actualTittle = driver.getTitle();
-    String expectedTittle = "Amazon.de";
+    String actualTitle = driver.getTitle();
+    String expectedTitle = "Amazon.de";
 
-    Assert.assertEquals(actualTittle, expectedTittle);
+    Assert.assertEquals(actualTitle, expectedTitle);
   }
 
   @Test
