@@ -11,6 +11,7 @@ public class Urls {
   public static final String BAD_SSL = "https://expired.badssl.com/";
   public static final String SELENIUM = "https://www.selenium.dev/downloads/";
   public static final String SCROLL = "https://mdbootstrap.com/docs/standard/extended/bootstrap4-table-scroll/";
+  public static final String REDIFF = "https://www.rediff.com/";
 
 
   private Urls() {
